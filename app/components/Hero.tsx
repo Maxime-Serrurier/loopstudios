@@ -1,7 +1,8 @@
-import React from 'react';
+// Component
 import Navbar from './Navbar';
 
 function Hero() {
+  // JSX
   return (
     <>
       <section className='flex flex-col h-screen bg-cover bg-hero'>
