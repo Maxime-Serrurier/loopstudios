@@ -14,12 +14,13 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`${
-          nav ? 'text-primaryWhite' : 'text-primaryBlack'
-        } container flex justify-between items-center p-8 mx-auto font-alata sticky`}
+        className='text-primaryWhite
+        } container flex justify-between items-center p-8 mx-auto font-alata sticky'
       >
         <div className='z-10'>
-          <p className='text-3xl font-alata font-bold'>loopstudios</p>
+          <p className='text-3xl font-semibold font-alata'>
+            loopstudios
+          </p>
         </div>
 
         {/* menu */}
@@ -34,12 +35,12 @@ function Navbar() {
         {/* Hamburger */}
         <div
           onClick={handleClick}
-          className='md:hidden z-10'
+          className='z-10 md:hidden'
         >
           {!nav ? (
-            <Bars3Icon className='h-8 w-8' />
+            <Bars3Icon className='w-8 h-8' />
           ) : (
-            <XMarkIcon className='h-10 w-10' />
+            <XMarkIcon className='w-10 h-10' />
           )}
         </div>
 

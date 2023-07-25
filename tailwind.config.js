@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        hero: "url('/image-hero.jpg')",
+        hero: "url('/assets/image-hero.jpg')",
       },
       fontFamily: {
         alata: ['Alata', 'sans-serif'],
