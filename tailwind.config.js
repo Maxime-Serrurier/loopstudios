@@ -8,11 +8,19 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        hero: "url('/image-hero.jpg')",
       },
+      fontFamily: {
+        alata: ['Alata', 'sans-serif'],
+        josefin: ['"Josefin Sans"'],
+      },
+    },
+    colors: {
+      primaryWhite: 'hsl(0, 0%, 100%)',
+      primaryBlack: 'hsl(0, 0%, 0%)',
+      darkGray: 'hsl(0, 0%, 55%)',
+      veryDarkGray: 'hsl(0, 0%, 41%)',
     },
   },
   plugins: [],
-}
+};
