@@ -6,7 +6,7 @@ function Interactive() {
   // JSX
   return (
     <>
-      <section className='h-screen px-6 py-20'>
+      <section className='flex flex-col items-center h-screen px-6 py-20'>
         <Image
           src='/assets/image-interactive.jpg'
           width={500}

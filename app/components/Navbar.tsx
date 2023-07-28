@@ -18,9 +18,9 @@ function Navbar() {
         } container flex justify-between items-center p-8 mx-auto font-alata sticky'
       >
         <div className='z-10'>
-          <p className='text-3xl font-semibold font-alata'>
+          <h3 className='text-3xl font-semibold font-alata'>
             loopstudios
-          </p>
+          </h3>
         </div>
 
         {/* menu */}
